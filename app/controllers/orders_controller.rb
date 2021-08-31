@@ -1,4 +1,4 @@
-class OrdersController < ApplicationController
+class OrdersController < ApiController
 
   include PaymentsSandbox::Import[track_transaction: 'operations.track_transaction']
 
